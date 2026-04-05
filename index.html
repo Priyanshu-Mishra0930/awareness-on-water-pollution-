@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Pollution Awareness</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Water is Life</h1>
+    <p>But We Are Slowly Destroying It</p>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="section">
+  <div class="text">
+    <h2>Introduction</h2>
+
+    <p>
+      Water pollution is one of the most serious environmental issues faced by the world today. 
+      It occurs when harmful substances such as sewage, industrial waste, chemicals, plastics, 
+      and toxic metals enter water bodies like rivers, lakes, and oceans.
+    </p>
+
+    <p>
+      This contamination reduces the quality of water and makes it unsafe for drinking, 
+      agriculture, industries, and aquatic life. Clean water is essential for survival, 
+      yet human activities are continuously degrading this valuable resource.
+    </p>
+
+    <p>
+      The major reason behind water pollution is the uncontrolled discharge of wastewater 
+      generated from households, industries, hospitals, and agriculture.
+    </p>
+  </div>
+
+  <div class="image">
+    <img src="water-pollution.jpg">
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section reverse">
+  <div class="text">
+    <h2>Problem Statement</h2>
+
+    <p>
+      The main problem is that many rivers and water sources are becoming highly polluted 
+      due to untreated sewage and industrial discharge.
+    </p>
+
+    <p>
+      This not only reduces the availability of clean water but also leads to the spread 
+      of dangerous diseases and environmental damage.
+    </p>
+
+    <p>
+      A major example is the Ganga River in India. It is considered sacred and supports 
+      millions of people, but today it faces severe pollution due to urbanization and 
+      population growth.
+    </p>
+  </div>
+
+  <div class="image">
+    <img src="ganga.jpg">
+  </div>
+</section>
+
+<!-- CAUSES -->
+<section class="section">
+  <div class="text full">
+    <h2>Major Causes of Water Pollution</h2>
+
+    <ul>
+      <li>Discharge of untreated domestic sewage</li>
+      <li>Industrial waste containing harmful chemicals</li>
+      <li>Plastic and solid waste dumping</li>
+      <li>Agricultural runoff with fertilizers and pesticides</li>
+      <li>Religious and cultural waste</li>
+    </ul>
+
+    <p>
+      These causes collectively contribute to the degradation of water bodies 
+      and make them unsuitable for human and ecological use.
+    </p>
+  </div>
+</section>
+
+<!-- EFFECTS -->
+<section class="section reverse">
+  <div class="text">
+    <h2>Effects of Water Pollution</h2>
+
+    <p>
+      Water pollution has serious impacts on both humans and the environment.
+    </p>
+
+    <ul>
+      <li>Spread of diseases such as cholera, diarrhea, and typhoid</li>
+      <li>Destruction of aquatic ecosystems</li>
+      <li>Death of fish due to lack of oxygen</li>
+      <li>Contamination of food chain</li>
+      <li>Increased water scarcity</li>
+    </ul>
+
+    <p>
+      These effects show how dangerous water pollution is and why it needs immediate attention.
+    </p>
+  </div>
+
+  <div class="image">
+    <img src="dead-fish.webp">
+  </div>
+</section>
+
+<!-- GLOBAL -->
+<section class="section">
+  <div class="text full">
+    <h2>Global and Indian Scenario</h2>
+
+    <p>
+      According to global studies, a large amount of wastewater is discharged into rivers 
+      without treatment, leading to declining water quality worldwide.
+    </p>
+
+    <p>
+      In India, the situation is particularly severe due to high population and industrial growth.
+    </p>
+
+    <p>
+      Government initiatives like the Namami Gange Programme have been launched 
+      to clean and restore the Ganga River.
+    </p>
+  </div>
+</section>
+
+<!-- TREATMENT -->
+<section class="section">
+  <div class="text">
+    <h2>Wastewater Treatment</h2>
+
+    <h3>Primary Treatment</h3>
+    <p>
+      Removes large particles such as plastic, sand, and debris through physical methods.
+    </p>
+
+    <h3>Secondary Treatment</h3>
+    <p>
+      Microorganisms break down organic waste and improve water quality.
+    </p>
+
+    <h3>Tertiary Treatment</h3>
+    <p>
+      Advanced processes remove chemicals, heavy metals, and harmful substances.
+    </p>
+  </div>
+
+  <div class="image">
+    <img src="treatment.png">
+  </div>
+</section>
+
+<!-- AQUATIC LIFE -->
+<section class="section reverse">
+  <div class="text">
+    <h2>Impact on Aquatic Life</h2>
+
+    <p>
+      Water pollution severely affects aquatic ecosystems. Fish and marine species 
+      suffer due to lack of oxygen and toxic substances.
+    </p>
+
+    <p>
+      Biodiversity is lost, and food chains are disturbed due to contamination.
+    </p>
+  </div>
+
+  <div class="image">
+    <img src="aquatic.webp">
+  </div>
+</section>
+
+
+
+<!-- CONCLUSION -->
+<section class="section">
+  <div class="text full">
+    <h2>Conclusion</h2>
+
+    <p>
+      Water pollution is a serious environmental issue that needs immediate action. 
+      Wastewater treatment and public awareness are the key solutions.
+    </p>
+
+    <p>
+      Protecting water resources is essential for future generations.
+    </p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Save Water Before It's Too Late</h2>
+  <button onclick="takeAction()">Take Action</button>
+</section>
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Take a Pledge 🌍</h2>
+    <p>I promise to save water and reduce pollution.</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
